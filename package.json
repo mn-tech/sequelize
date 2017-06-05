@@ -1,7 +1,7 @@
 {
   "name": "@mn-tech/sequelize",
   "description": "Multi dialect ORM for Node.JS/io.js",
-  "version": "3.30.5",
+  "version": "3.30.6",
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [
     {
