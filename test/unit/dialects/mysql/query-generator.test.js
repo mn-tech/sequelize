@@ -40,6 +40,10 @@ if (Support.dialectIsMySQL()) {
           expectation: {id: 'INTEGER DEFAULT 0'}
         },
         {
+          arguments: [{id: {type: 'INTEGER', comment: 'Test'}}],
+          expectation: {id: 'INTEGER COMMENT \'Test\''}
+        },
+        {
           arguments: [{id: {type: 'INTEGER', unique: true}}],
           expectation: {id: 'INTEGER UNIQUE'}
         },
